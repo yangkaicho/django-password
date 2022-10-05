@@ -18,6 +18,7 @@ from django.urls import path
 from generator import views
 
 urlpatterns = [
+    path('password/',views.password),
     path('',views.index),
     path('admin/', admin.site.urls),
 ]
